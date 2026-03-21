@@ -1,4 +1,3 @@
-cat > app.py << 'EOF'
 import streamlit as st
 import face_recognition
 from PIL import Image
@@ -108,4 +107,3 @@ st.markdown("""
 2. **人脸识别模式**：需要先在 `known_faces` 目录放入已知人脸的图片
 3. 识别阈值：数值越小匹配越严格，推荐 0.6
 """)
-EOF
