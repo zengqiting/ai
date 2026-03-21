@@ -1,4 +1,3 @@
-cat > face_utils.py << 'EOF'
 import face_recognition
 import cv2
 import numpy as np
@@ -69,4 +68,3 @@ def draw_results(image_array, results):
                    cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 0), 1)
     
     return cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
-EOF
