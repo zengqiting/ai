@@ -1,0 +1,16 @@
+# 语音识别依赖包
+# 安装命令: pip install -r requirements.txt
+
+# OpenAI Whisper - 语音识别核心库
+openai-whisper
+
+# PyTorch - Whisper 的底层计算框架
+# CPU 版本（推荐笔记本用户）：
+torch
+torchaudio
+
+# 如果安装 torch 太慢，可以用清华镜像：
+# pip install -i https://pypi.tuna.tsinghua.edu.cn/simple torch torchaudio
+
+# 可选：音频处理
+numpy
