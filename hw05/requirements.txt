@@ -1,0 +1,7 @@
+
+3. 内容框粘贴：
+```txt
+torch>=2.0.0
+torchvision>=0.15.0
+matplotlib>=3.5.0
+numpy>=1.21.0
